@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.toko">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".home"/>
+        <activity android:name=".update_kategori" />
+        <activity android:name=".tambah_kategori" />
+        <activity android:name=".pembelian" />
+        <activity android:name=".penjualan" />
+        <activity android:name=".kelola_data" />
+        <activity android:name=".data_barang" />
+        <activity android:name=".data_kategori" />
+        <activity android:name=".data_pelanggan" />
+        <activity android:name=".data_satuan_barang" />
+        <activity android:name=".data_supplier" />
+        <activity android:name=".tambah_barang" />
+        <activity android:name=".update_barang" />
+        <activity android:name=".tambah_pelanggan" />
+        <activity android:name=".update_pelanggan" />
+        <activity android:name=".tambah_satuan_barang" />
+        <activity android:name=".update_satuan" />
+        <activity android:name=".tambah_supplier" />
+        <activity android:name=".update_supplier" />
+        <activity android:name=".stok_barang" />
+        <activity android:name=".Laporan.laporan" />
+        <activity android:name=".Laporan.laporan_pembelian" />
+        <activity android:name=".Laporan.laporan_pembelian_detail" />
+        <activity android:name=".Adapter.RecyclerViewAdapter_LaporanPembelian" />
+        <activity android:name=".Adapter.RecyclerViewAdapter_LaporanPembelianDetail" />
+        <activity android:name=".Laporan.laporan_penjualan" />
+        <activity android:name=".Laporan.laporan_penjualan_detail" />
+        <activity android:name=".Adapter.RecyclerViewAdapter_Penjualan" />
+        <activity android:name=".Adapter.RecyclerViewAdapter_LaporanPenjualanDetail" />
+        <activity android:name=".Laporan.laporan_stok" />
+    </application>
+
+</manifest>
