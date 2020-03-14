@@ -12,3 +12,7 @@
   PHP API files: https://github.com/devkitsu/kitsupro-InventoryApp-API
   
   MySQL file: 
+
+*NOTES FOR DEMO
+
+pass: jayamakmursentosa
