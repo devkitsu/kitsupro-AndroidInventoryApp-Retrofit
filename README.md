@@ -1,7 +1,11 @@
 # kitsupro-InventoryApp-Retrofit
-  Inventory App with Retrofit using MySql Database
+  Inventory App using Retrofit and Butterknife library with MySql Database
   
   Code Project from kitsuDev
+  
+  Butterknife: http://jakewharton.github.io/butterknife/
+  
+  Retrofit: https://square.github.io/retrofit/
   
   demo: https://appetize.io/app/1gdr5c8jrg1k0pdbwtwb30ckzc 
   
